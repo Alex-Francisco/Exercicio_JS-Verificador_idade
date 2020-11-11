@@ -16,6 +16,10 @@ body, html {
     color: #fff;
 }
 
+hr {
+    background: #625f64;   
+}
+
 #caixa, #foto {
     border-radius: 25px 0px;
 }
