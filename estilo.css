@@ -1,0 +1,14 @@
+body, html {
+    background-color: #2286b0;
+    /*background-image: linear-gradient(32deg, #319ac6 60%, #3ca6d3 40%);
+    background-image: -o-linear-gradient(32deg, #319ac6 60%, #3ca6d3 40%);
+    background-image: -moz-linear-gradient(32deg, #319ac6 60%, #3ca6d3 40%);*/
+    background-image: -webkit-linear-gradient(36deg, #319ac6 59%, #3ca6d3 41%);
+    min-height: 100vh;
+    height: 100%;
+    overflow: hidden;
+}
+
+#caixa, #foto {
+    border-radius: 25px 0px;
+}
