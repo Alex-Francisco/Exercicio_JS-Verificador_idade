@@ -5,14 +5,15 @@
 
 body, html {
     background-color: #2286b0;
-    background-image: linear-gradient(60deg, #8f3faf 25%, #2b3e51 75%);
-    background-image: -o-linear-gradient(60deg, #8f3faf 25%, #2b3e51 75%);
-    background-image: -moz-linear-gradient(60deg, #8f3faf 25%, #2b3e51 75%);
-    background-image: -webkit-linear-gradient(60deg, #8f3faf 25%, #2b3e51 75%);
+    background-image: linear-gradient(60deg, #8f3faf 40%, #571572 60%);
+    background-image: -o-linear-gradient(60deg, #8f3faf 40%, #571572 60%);
+    background-image: -moz-linear-gradient(60deg, #8f3faf 40%, #571572 60%);
+    background-image: -webkit-linear-gradient(60deg, #8f3faf 40%, #571572 60%);
     min-height: 100vh;
     height: 100%;
     overflow: hidden;
     font-family: 'Roboto', sans-serif;
+    color: #fff;
 }
 
 #caixa, #foto {
@@ -20,10 +21,11 @@ body, html {
 }
 
 #caixa {
-    background: rgba(255, 255, 255, 0.45);
+    background: rgba(24, 24, 24, 0.90);
     box-shadow: rgba(0, 0, 0, 0.2) 5px 8px 10px;
     max-width: 700;
     max-height: 700px;
+    border: #fff 1px solid;
 }
 
 h1 {
@@ -46,6 +48,14 @@ h1 {
 
 .btn-dark, .form-text {
     margin-top: 10px;
+}
+
+.btn-dark {
+    background: #571572;
+}
+
+.btn-dark:hover {
+    background: #8f3faf;
 }
 
 #resultado {
