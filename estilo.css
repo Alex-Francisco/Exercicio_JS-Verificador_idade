@@ -5,10 +5,10 @@
 
 body, html {
     background-color: #2286b0;
-    /*background-image: linear-gradient(32deg, #8f3faf 59%, #2b3e51 41%);
-    background-image: -o-linear-gradient(32deg, #8f3faf 59%, #2b3e51 41%);
-    background-image: -moz-linear-gradient(32deg, #8f3faf 59%, #2b3e51 41%);*/
-    background-image: -webkit-linear-gradient(60deg, #8f3faf 35%, #2b3e51 65%);
+    background-image: linear-gradient(60deg, #8f3faf 25%, #2b3e51 75%);
+    background-image: -o-linear-gradient(60deg, #8f3faf 25%, #2b3e51 75%);
+    background-image: -moz-linear-gradient(60deg, #8f3faf 25%, #2b3e51 75%);
+    background-image: -webkit-linear-gradient(60deg, #8f3faf 25%, #2b3e51 75%);
     min-height: 100vh;
     height: 100%;
     overflow: hidden;
@@ -20,7 +20,7 @@ body, html {
 }
 
 #caixa {
-    background: rgba(255, 255, 255, 0.35);
+    background: rgba(255, 255, 255, 0.45);
     box-shadow: rgba(0, 0, 0, 0.2) 5px 8px 10px;
     max-width: 700;
     max-height: 700px;
@@ -44,7 +44,7 @@ h1 {
     margin-top: 05px;
 }
 
-.btn-dark {
+.btn-dark, .form-text {
     margin-top: 10px;
 }
 
