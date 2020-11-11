@@ -30,8 +30,31 @@
                     <div class="col-md-6">
                         <img id="foto" src="mulher25-35.jpeg" alt="" class="img-fluid">
                     </div>
-                    <div class="col-md-6">
-                        Verificador de idade
+                    <div class="col-md-6" id="direita">
+                        <h1>Verificar idade</h1>
+                        <hr>
+                        <div class="form-group">
+                            <label for="ano_nasc"><strong>Digite o ano de nascimento</strong></label>
+                            <input type="number" class="form-control" id="ano_nasc" placeholder="Aguardando...">
+                            <small class="form-text text-muted">Ex: 1989</small>
+                        </div>
+                        <hr>
+                        <p id="sexo"><strong>Escolha o sexo</strong></p>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                            <label class="form-check-label" for="exampleRadios1">
+                              Feminino
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                            <label class="form-check-label" for="exampleRadios2">
+                              Masculino
+                            </label>
+                        </div>
+                        <button type="button" class="btn btn-info btn-lg btn-block">realizar verificação</button>
+                        <div class="text-center" id="resultado">O sistema detectou uma mulhar de 30 anos</div>
+                        <p class="text-center text-white mt-5">&copy; Alex Francisco</p>
                     </div>
                 </div>
             </div>
