@@ -43,7 +43,7 @@ function verificar() {
             } else if (idade >= 15 && idade <= 20) {
                 imagem = imagem.setAttribute('src', 'adolesc_homem15-25.jpg')
             } else if (idade >= 21 && idade <= 35) {
-                imagem = imagem.setAttribute('src', 'homem25-35.jpeg')
+                imagem = imagem.setAttribute('src', 'homem25-35.jpg')
             } else if (idade >= 36 && idade <= 45) {
                 imagem = imagem.setAttribute('src', 'homem36-45.jpg')
             } else if (idade >= 46 && idade <= 59) {
