@@ -5,10 +5,10 @@
 
 body, html {
     background-color: #2286b0;
-    /*background-image: linear-gradient(32deg, #319ac6 60%, #3ca6d3 40%);
-    background-image: -o-linear-gradient(32deg, #319ac6 60%, #3ca6d3 40%);
-    background-image: -moz-linear-gradient(32deg, #319ac6 60%, #3ca6d3 40%);*/
-    background-image: -webkit-linear-gradient(36deg, #319ac6 59%, #3ca6d3 41%);
+    /*background-image: linear-gradient(32deg, #8f3faf 59%, #2b3e51 41%);
+    background-image: -o-linear-gradient(32deg, #8f3faf 59%, #2b3e51 41%);
+    background-image: -moz-linear-gradient(32deg, #8f3faf 59%, #2b3e51 41%);*/
+    background-image: -webkit-linear-gradient(60deg, #8f3faf 35%, #2b3e51 65%);
     min-height: 100vh;
     height: 100%;
     overflow: hidden;
@@ -20,15 +20,17 @@ body, html {
 }
 
 #caixa {
-    background: rgba(255, 255, 255, 0.45);
+    background: rgba(255, 255, 255, 0.35);
     box-shadow: rgba(0, 0, 0, 0.2) 5px 8px 10px;
+    max-width: 700;
+    max-height: 700px;
 }
 
 h1 {
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     padding-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     text-align: left;
     font-size: 2.3em;
     color: #fff;
@@ -39,19 +41,15 @@ h1 {
 }
 
 #ano_nasc {
-    margin-top: 10px;
+    margin-top: 05px;
 }
 
-#sexo {
+.btn-dark {
     margin-top: 10px;
-}
-
-.btn-info {
-    margin-top: 35px;
 }
 
 #resultado {
-    margin-top: 45px;
+    margin-top: 25px;
     color: #fff;
     font-weight: 600;
 }
